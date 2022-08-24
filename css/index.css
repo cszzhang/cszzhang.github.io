@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    height: 60px;
+    /* background: yellow; */
+    margin-bottom: 8px;
+}
+
+.headerleft{
+    float: left;
+    height: 58px;
+    line-height: 58px;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 30px;
+}
+
+.headerleft a:link{
+    text-decoration: none;
+}
+.headerleft a:visited{
+    color: black;
+}
+.headerleft a:hover{
+    color: black;
+}
+
+.headerright{
+    font-size: 14px;
+    float: right;
+}
+
+.headerright a:link{
+    text-decoration: none;
+}
+.headerright a:visited{
+    color: black;
+}
+.headerright a:hover{
+    color: black;
+}
+
+.headerright ul{
+    height: 72px;
+    line-height: 72px;
+}
+
+.headerright li{
+    float: left;
+    color: #5c5c5c;
+    height: 60px;
+    line-height: 60px;
+}
+
+.headerright li a{
+    padding: 0 13px;
+}
+
+.hline{
+    margin: 0 auto;
+    width: 1180px;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #cccccc;
+}
+
+#home{
+    color: black;
+    font-weight: bold;
+}
+
+#magnifier{
+    width: 18px;
+    margin-top: 20px;
+}
+
+.profile{
+    margin: 0 auto;
+    width: 1180px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.profile-photo{
+    width: 23%;
+    float: left;
+    margin-right: 37px;
+}
+
+.profile-photo img{
+    max-width: 100%;
+}
+
+.profile-text{
+    width: 66%;
+    float: left;
+}
+
+.profile-text-common{
+    margin: 13px 0;
+    color: rgba(33, 33, 33, 1);
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#name{
+    margin: 13px 0;
+    color:#6d2625;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+#jobtitle{
+    font-weight: bolder;
+}
+
+#e-mail{
+    margin: 27px 0 13px 0;
+}
+
+#chineseplace{
+    font-size: 15px;
+    font-family: Merriweather, serif;
+}
